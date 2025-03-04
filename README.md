@@ -22,13 +22,14 @@ This repository contains the initial stages of a project aimed at developing an 
 
 ```
 📂 Used_Car_Pricing_Project
-│── 📂 data
+│── 📂 Data
 │   ├── cars_data_cleaned.csv
 │   ├── Electric_cars_cleaned.csv
 │   ├── Non_Electric_cars_cleaned.csv
-│── 📂 notebooks
+|   ├── cars_data.csv
+│── 📂 Data Preprocessing & EDA
 │   ├── Data Preprocessing.ipynb
-│── 📂 scripts
+│── 📂 Web Scraping
 │   ├── web_scraping_opensooq.py
 │── requirements.txt
 │── README.md
