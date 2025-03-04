@@ -1,76 +1,69 @@
-# Used Car Pricing System
+# Used Car Pricing System - Data Collection & Preprocessing
 
-This project aims to develop an AI-powered pricing system for used cars, helping end-users set optimal prices when selling on online platforms. Currently, two key components have been completed: web scraping and data preprocessing.
+This repository contains the initial stages of a project aimed at developing an AI-powered pricing system for used cars. Currently, two key components have been completed:
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Next Steps](#next-steps)
-
-## Overview
-
-The project focuses on extracting and processing car listing data from OpenSooq, a popular online marketplace. The collected data will be used to build an AI-powered pricing model.
+1. **Web Scraping**: Extracting used car listings from OpenSooq.
+2. **Data Preprocessing**: Cleaning and preparing the data for further analysis and modeling.
 
 ## Features
 
-### Web Scraping
-
-- Extracts car listings from OpenSooq.
-- Captures details such as price, description, and specifications.
-- Saves the scraped data in a CSV file for further processing.
-
-### Data Preprocessing
-
-- Cleans and standardizes extracted data.
-- Handles missing values and inconsistencies.
-- Prepares the dataset for further analysis and modeling.
-
-## Installation
-
-To run the project, ensure you have Python installed along with the required dependencies:
-
-```sh
-pip install -r requirements.txt
-```
-
-## Usage
-
-### Running the Web Scraper
-
-```sh
-python web_scraping_opensooq.py
-```
-
-### Running Data Preprocessing
-
-```sh
-jupyter notebook
-```
-
-Then open `Data Preprocessing.ipynb` and run the notebook cells.
+- **Web Scraping**:
+  - Scrapes used car listings from [OpenSooq](https://jo.opensooq.com).
+  - Extracts car attributes such as price, description score, and other details.
+  - Saves the scraped data to a CSV file.
+  
+- **Data Preprocessing**:
+  - Cleans missing values and standardizes data formats.
+  - Handles outliers and irrelevant features.
+  - Separates data into electric and non-electric cars.
+  - Prepares the dataset for machine learning.
 
 ## Project Structure
 
 ```
-📂 Used-Car-Pricing-System
-├── 📄 web_scraping_opensooq.py  # Web scraping script
-├── 📄 Data Preprocessing.ipynb  # Data preprocessing steps
-├── 📄 car_data.csv              # Scraped car data
-├── 📄 requirements.txt          # Dependencies
-└── 📄 README.md                 # Project documentation
+📂 Used_Car_Pricing_Project
+│── 📂 data
+│   ├── cars_data_cleaned.csv
+│   ├── Electric_cars_cleaned.csv
+│   ├── Non_Electric_cars_cleaned.csv
+│── 📂 notebooks
+│   ├── Data Preprocessing.ipynb
+│── 📂 scripts
+│   ├── web_scraping_opensooq.py
+│── requirements.txt
+│── README.md
 ```
 
-## Next Steps
+## Installation
 
-- Feature engineering and data analysis.
-- Model development for price prediction.
-- Deployment and integration with a user-friendly interface.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+   ```
 
-Stay tuned for further updates! 
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+3. Run the web scraping script:
+   ```bash
+   python scripts/web_scraping_opensooq.py
+   ```
 
+4. Process the data:
+   ```bash
+   jupyter notebook
+   ```
+   Open `notebooks/Data Preprocessing.ipynb` and run the cells.
 
+## Future Work
+
+- **Feature Engineering**
+- **Model Development**
+- **Deployment of the Pricing System**
+
+---
+
+ *Stay tuned for updates!*
