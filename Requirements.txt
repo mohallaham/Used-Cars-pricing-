@@ -1,5 +1,15 @@
+Python
 requests
 beautifulsoup4
 pandas
 lxml
 jupyter notebook
+pandas 
+numpy
+matplotlib
+seaborn
+os
+streamlit
+catboost
+sikitlearn 
+sqlite3
