@@ -94,12 +94,12 @@ Used_Car_Pricing_Project/
 
 3. **Train the model:**
 
-   - Open `Modeling/modeling_pipeline.ipynb` and execute the notebook to train and evaluate the model.
+   - Open `Modeling/Electric_CatBoost.ipynb` or `Modeling/Non_Electric_CatBoost.ipynb` and execute the notebook to train and evaluate the model.
 
 4. **Launch the Streamlit app:**
 
    ```bash
-   streamlit run streamlit\ app/app.py
+   streamlit run streamlit app/Home.py
    ```
 
    - Access the web application in your browser to input car details and receive price predictions.
