@@ -1,4 +1,4 @@
-# Used Car Pricing System - Data Collection & Preprocessing
+# Sayarice: Used Car Pricing System 
 
 This repository contains the initial stages of a project aimed at developing an AI-powered pricing system for used cars. Currently, two key components have been completed:
 
